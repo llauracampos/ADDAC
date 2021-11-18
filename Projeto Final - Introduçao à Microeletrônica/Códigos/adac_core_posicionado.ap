@@ -1,0 +1,111 @@
+V ALLIANCE : 6
+H adac_core_posicionado,P,29/ 3/2020,100
+A 0,0,39000,30000
+C 2500,30000,200,a 3,0,NORTH,ALU2
+C 8000,30000,200,a 2,0,NORTH,ALU2
+C 13500,30000,200,a 1,0,NORTH,ALU2
+C 19500,30000,200,a 0,0,NORTH,ALU2
+C 25000,30000,200,sel0,0,NORTH,ALU2
+C 30500,30000,200,sel1,0,NORTH,ALU2
+C 36000,30000,200,clk,0,NORTH,ALU2
+C 3500,0,200,s 3,0,SOUTH,ALU2
+C 11500,0,200,s 2,0,SOUTH,ALU2
+C 19000,0,200,s 1,0,SOUTH,ALU2
+C 27000,0,200,s 0,0,SOUTH,ALU2
+C 35000,0,200,c_4,0,SOUTH,ALU2
+I 38000,10000,tie_x0,tiex0_42,SYM_Y
+I 38000,0,tie_x0,tiex0_41,SYM_Y
+I 37000,5000,rowend_x0,rowendx0_40,NOSYM
+I 35500,0,tie_x0,tiex0_39,SYM_Y
+I 34500,5000,tie_x0,tiex0_38,NOSYM
+I 32500,0,tie_x0,tiex0_37,SYM_Y
+I 32000,10000,tie_x0,tiex0_36,SYM_Y
+I 30000,5000,tie_x0,tiex0_35,NOSYM
+I 29000,0,tie_x0,tiex0_34,SYM_Y
+I 24000,5000,tie_x0,tiex0_33,NOSYM
+I 23500,25000,rowend_x0,rowendx0_32,NOSYM
+I 22000,10000,tie_x0,tiex0_31,SYM_Y
+I 21000,25000,tie_x0,tiex0_30,NOSYM
+I 20500,5000,tie_x0,tiex0_29,NOSYM
+I 19500,20000,rowend_x0,rowendx0_28,SYM_Y
+I 19000,0,tie_x0,tiex0_27,SYM_Y
+I 18000,10000,tie_x0,tiex0_26,SYM_Y
+I 17500,5000,tie_x0,tiex0_25,NOSYM
+I 16500,20000,tie_x0,tiex0_24,SYM_Y
+I 15500,25000,tie_x0,tiex0_23,NOSYM
+I 14000,15000,rowend_x0,rowendx0_22,NOSYM
+I 14000,10000,tie_x0,tiex0_21,SYM_Y
+I 14000,0,tie_x0,tiex0_20,SYM_Y
+I 13000,20000,tie_x0,tiex0_19,SYM_Y
+I 13000,10000,tie_x0,tiex0_18,SYM_Y
+I 12000,5000,tie_x0,tiex0_17,NOSYM
+I 10500,15000,tie_x0,tiex0_16,NOSYM
+I 10000,25000,tie_x0,tiex0_15,NOSYM
+I 10000,10000,tie_x0,tiex0_14,SYM_Y
+I 9500,0,tie_x0,tiex0_13,SYM_Y
+I 9000,20000,tie_x0,tiex0_12,SYM_Y
+I 9000,10000,tie_x0,tiex0_11,SYM_Y
+I 8500,0,tie_x0,tiex0_10,SYM_Y
+I 7500,15000,tie_x0,tiex0_9,NOSYM
+I 5500,10000,tie_x0,tiex0_8,SYM_Y
+I 4500,25000,tie_x0,tiex0_7,NOSYM
+I 4500,15000,tie_x0,tiex0_6,NOSYM
+I 4500,10000,tie_x0,tiex0_5,SYM_Y
+I 4500,5000,tie_x0,tiex0_4,NOSYM
+I 3000,0,tie_x0,tiex0_3,SYM_Y
+I 2000,15000,tie_x0,tiex0_2,NOSYM
+I 2000,0,tie_x0,tiex0_1,SYM_Y
+I 37500,25000,inv_x2,not_sel1_ins,NOSYM
+I 33000,25000,xr2_x1,xr2_x1_11_ins,NOSYM
+I 28500,25000,oa2a22_x2,aux24_ins,NOSYM
+I 24000,25000,xr2_x1,xr2_x1_10_ins,NOSYM
+I 22000,25000,inv_x2,not_a_0_ins,NOSYM
+I 16500,25000,xr2_x1,xr2_x1_3_ins,NOSYM
+I 11000,25000,oa2a22_x2,aux51_ins,NOSYM
+I 5500,25000,xr2_x1,xr2_x1_2_ins,NOSYM
+I 0,25000,xr2_x1,xr2_x1_ins,NOSYM
+I 37000,20000,buf_x2,mbk_buf_aux3,SYM_Y
+I 35000,20000,no2_x1,aux12_ins,SYM_Y
+I 26000,20000,sff1_x4,acumulador_0_ins,SYM_Y
+I 23500,20000,an12_x1,aux3_ins,SYM_Y
+I 21500,20000,buf_x2,s_0_ins,SYM_Y
+I 20000,20000,inv_x2,not_a_3_ins,SYM_Y
+I 17500,20000,no2_x1,no2_x1_ins,SYM_Y
+I 14000,20000,no3_x1,no3_x1_ins,SYM_Y
+I 10000,20000,a3_x2,a3_x2_ins,SYM_Y
+I 0,20000,sff1_x4,acumulador_3_ins,SYM_Y
+I 34500,15000,xr2_x1,aux27_ins,NOSYM
+I 30000,15000,xr2_x1,xr2_x1_9_ins,NOSYM
+I 25500,15000,xr2_x1,xr2_x1_7_ins,NOSYM
+I 19000,15000,mx3_x2,aux34_ins,NOSYM
+I 14500,15000,xr2_x1,xr2_x1_8_ins,NOSYM
+I 11500,15000,o2_x2,not_aux18_ins,NOSYM
+I 8500,15000,na2_x1,na2_x1_ins,NOSYM
+I 5500,15000,na2_x1,na2_x1_2_ins,NOSYM
+I 3000,15000,inv_x2,not_sel0_ins,NOSYM
+I 0,15000,buf_x2,mbk_buf_not_aux19,NOSYM
+I 33000,10000,oa2ao222_x2,aux5_ins,SYM_Y
+I 23000,10000,sff1_x4,acumulador_1_ins,SYM_Y
+I 19000,10000,noa22_x1,c_4_ins,SYM_Y
+I 15000,10000,oa22_x2,oa22_x2_ins,SYM_Y
+I 11000,10000,buf_x2,mbk_buf_not_aux8,SYM_Y
+I 6500,10000,o2_x2,not_aux19_ins,SYM_Y
+I 0,10000,xr2_x1,xr2_x1_6_ins,SYM_Y
+I 37500,5000,inv_x2,inv_x2_2_ins,NOSYM
+I 35500,5000,inv_x2,inv_x2_ins,NOSYM
+I 31000,5000,nao2o22_x1,not_aux17_ins,NOSYM
+I 25000,5000,oa2ao222_x2,aux15_ins,NOSYM
+I 21500,5000,a2_x2,a2_x2_2_ins,NOSYM
+I 18500,5000,buf_x2,mbk_buf_aux5,NOSYM
+I 13000,5000,xr2_x1,xr2_x1_4_ins,NOSYM
+I 5500,5000,mx3_x2,aux44_ins,NOSYM
+I 0,5000,xr2_x1,xr2_x1_5_ins,NOSYM
+I 36500,0,inv_x2,not_acumulador_2_ins,SYM_Y
+I 33500,0,buf_x2,s_1_ins,SYM_Y
+I 30000,0,a2_x2,a2_x2_ins,SYM_Y
+I 20000,0,sff1_x4,acumulador_2_ins,SYM_Y
+I 15000,0,buf_x8,s_3_ins,SYM_Y
+I 10500,0,nao2o22_x1,not_aux8_ins,SYM_Y
+I 4000,0,xr2_x1,aux37_ins,SYM_Y
+I 0,0,buf_x2,s_2_ins,SYM_Y
+EOF
